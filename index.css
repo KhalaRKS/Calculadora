@@ -1,0 +1,65 @@
+.container-calculator{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    border: 1px solid black;
+    text-align: center;
+    margin: auto;
+    max-width: 800px;
+}
+.grid-button{
+    border: 1px solid black;
+    cursor: pointer;
+    background-color: #222831;
+    color: white;
+}
+.print-calculator{
+    grid-column: 1/5;
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+}
+.grid-button:hover{
+    opacity: 0.9;
+}
+.grid-button p{
+    font-size: 2em;
+}
+.numbers{
+    background-color: #30475E;
+}
+/*
+.first{
+}
+.second{
+}
+.eleven{
+   
+}
+.ten{
+    
+}
+.nine{
+    
+}
+.fiveteen{
+    
+}
+.fourteen{
+    
+}
+.thirdteen{
+    
+}
+.nineteen{
+    
+}
+.eighteen{
+    
+}
+.seventeen{
+    
+}
+.twentytwo{
+   
+}*/
