@@ -17,22 +17,22 @@
         <div class="grid-button second"><p>√</p></div>
         <div class="grid-button third"><p>x2</p></div>
         <div class="grid-button four"><p>4</p></div>
-        <div class="grid-button five"><p>CE</p></div>
+        <div class="grid-button five" onclick="clearAllValues()"><p>CE</p></div>
         <div class="grid-button six"><p>C</p></div>
-        <div class="grid-button seven"><p><i class="fas fa-long-arrow-alt-left"></i></p></div>
-        <div class="grid-button eight"><p>/</p></div>
+        <div class="grid-button seven" onclick="deleteLastNumber()"><p><i class="fas fa-long-arrow-alt-left"></i></p></div>
+        <div class="grid-button eight" onclick="action(divide=1)"><p>/</p></div>
         <div class="grid-button nine numbers"  id="add-seven"onclick="getNumber(7)"><p>7</p></div>
         <div class="grid-button ten numbers"  id="add-eight"onclick="getNumber(8)"><p>8</p></div>
         <div class="grid-button eleven numbers" id="add-nine" onclick="getNumber(9)"><p>9</p></div>
-        <div class="grid-button twelve"><p>X</p></div>
+        <div class="grid-button twelve" onclick="action(multiply=1)"><p>X</p></div>
         <div class="grid-button thirdteen numbers" id="add-four" onclick="getNumber(4)"><p>4</p></div>
         <div class="grid-button fourteen numbers" id="add-five"onclick="getNumber(5)"><p>5</p></div>
         <div class="grid-button fiveteen numbers" id="add-six" onclick="getNumber(6)"><p>6</p></div>
-        <div class="grid-button sixteen"><p>-</p></div>
+        <div class="grid-button sixteen" onclick="action(minus=1)"><p>-</p></div>
         <div class="grid-button seventeen numbers" id="add-one"onclick="getNumber(1)"><p>1</p></div>
         <div class="grid-button nineteen numbers" id="add-two" onclick="getNumber(2)"><p>2</p></div>
         <div class="grid-button eighteen numbers" id="add-three" onclick="getNumber(3)"><p>3</p></div>
-        <div class="grid-button twenty" onclick="createValue(); sumaryFunction()"><p>+</p></div>
+        <div class="grid-button twenty" onclick="createValue(); action(plus=1)"><p>+</p></div>
         <div class="grid-button twentyone"><p>+-</p></div>
         <div class="grid-button twentytwo numbers" id="add-zero"onclick="getNumber(0)"><p>0</p></div>
         <div class="grid-button twentythree"><p>,</p></div>
